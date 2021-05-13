@@ -1,0 +1,34 @@
+{
+  "name": "nextmaterial",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "1.x",
+    "@date-io/dayjs": "1.x",
+    "@date-io/luxon": "1.x",
+    "@date-io/moment": "1.x",
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/pickers": "^3.2.10",
+    "clsx": "latest",
+    "date-fns": "^2.16.1",
+    "dayjs": "^1.9.1",
+    "luxon": "^1.25.0",
+    "moment": "^2.29.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}
